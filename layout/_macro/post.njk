@@ -90,8 +90,7 @@
           {{ post.content }}
         {%- endif %}
       {% else %}
-        {{- next_inject('postBodyStart') }}
-        {{- post.content }}
+        {{ post.content }}
       {%- endif %}
     </div>
 
